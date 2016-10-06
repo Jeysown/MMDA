@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+}
+html,body,#page, header { height:100%;}
+body{
+  padding:0;margin:0;
+  padding-top: 50px;
+  font-family: "Minion Pro";
+  background-color: #E8EAF6;
+}
+#map {
+  height: 590px;
+}
+/* General sizing */
+ul.dropdown-lr {
+  width: 300px;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #7986CB;
+    border-color: #7986CB;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #3F51B5;
+    border-color: #3F51B5;
+}
+.btn-primary.focus, .btn-primary:focus {
+    color: #fff;
+    background-color: #7986CB;
+    border-color: #7986CB;
+}
+.footer {
+  width: 100%;
+}
+.footer1{
+  height: 150px;
+  background-color:#3F51B5;
+  color: #fff;
+}
+.footer2 {
+  height: 80px;
+  background-color: #3949AB;
+}
+.footer{
+  color: #fff;
+}
+.footer-text{
+  text-align: center;
+  padding-top: 10px;
+}
+.modal-title{
+  padding-right:25px;
+  color: #212121;
+  text-align: center;
+  font-size: 18px;
+}
+/* mobile fix */
+@media (max-width: 768px) {
+	.dropdown-lr h3 {
+		color: #eee;
+	}
+	.dropdown-lr label {
+		color: #eee;
+	}
+}
+
+i>h3{
+  display: inline;
+  padding-left: 15px;
+
+}
+
+.jumbotron{
+  text-align: center;
+  background: transparent;
+}
+
+.navbar-inverse .navbar-brand{
+  color: #fff;
+}
+.collapse>.navbar-right>li>a{
+  color:#fff;
+}
+.table>thead{
+  background-color:#3949AB;
+}
+.table>thead>tr>th{
+  color:#fff;
+  text-align: center;
+
+}
+.table>tbody>tr>td{
+  color:#212121;
+  text-align: center;
+  background-color: #fff;
+
+}
+.navbar-inverse{
+  background-color: #3949AB;
+  border-color: #3949AB;
+}
